@@ -52,7 +52,7 @@ header{
 
 
 
-.caixa{
+#caixa{
     display: inline-block;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 16px;
@@ -73,7 +73,7 @@ header{
     
 }
 
-.caixa:not(:placeholder-shown){
+#caixa:not(:placeholder-shown){
     font-family:'Roboto';
     font-size: large;
 }

@@ -20,7 +20,7 @@ header{
     font-weight: bold;
     font-size: 12px;
     padding: 12px 50px;
-    width: 100%;
+
 }
 
 .saudacao{
@@ -34,7 +34,6 @@ header{
 
 .centro{
     text-align: center;
-    width: -40%;
     overflow: hidden;
 }
 
@@ -53,8 +52,8 @@ header{
 
 
 
-#caixa{
-    display: inline-block;
+.caixa{
+    display: flex;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -62,8 +61,8 @@ header{
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.29);
     outline: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: center;
+    
     font-family: 'Protest Guerrilla', sans-serif;
     font-style: normal;
     font-size: larger;
@@ -74,7 +73,7 @@ header{
     
 }
 
-#caixa:not(:placeholder-shown){
+.caixa:not(:placeholder-shown){
     font-family:'Roboto';
     font-size: large;
 }
@@ -82,8 +81,12 @@ header{
 .botoes{
     font-family: 'Roboto', sans-serif;
     margin-top: 35px;
-    display: flexbox;
+    
+    display: flex;
     align-items: center;
+    align-content: space-between;
+    justify-content: space-around;
+
     
 }
 
@@ -110,7 +113,7 @@ header{
 
 
 .link{
-    
+    position: relative;
     width: 115px;
     height: 40px;
     text-align: center;
@@ -130,22 +133,48 @@ header{
 
 }
 
+
+.aviso{
+    position: absolute;
+    top: 60%;
+    float: left;
+    color: white;
+    overflow: hidden;
+    padding-top: 25px;
+    background-color: red/*#0C2D48*/;
+    border-radius: 25px;
+    height: 25px;
+    line-height: 25px;
+    
+
+    padding: 15px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.link:hover + .aviso{
+    visibility: visible;
+    
+}
+
+
+
 .rodape{
     font-family: 'Roboto', sans-serif;
     font-size: large;
-    display: flexbox;
+    display: flex;
     flex-direction: column;
+    
 }
 
 .rodape > div{
-    
-    background-color: #0C2D48;
+    background-image: linear-gradient(to top,#0C2D48 , #ffffff00 );
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    height: 90px;
-    line-height: 90px;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
     color: white;
     text-align: center;
 
@@ -165,4 +194,30 @@ header{
     100% {
         background-position: 0% 50%;
     }
+}
+
+
+@media (max-width: 570px){
+
+    header{
+        text-align: center;
+    }
+
+
+    .saudacao{
+        font-size: 60px;
+    }
+
+    .centro{
+        margin-top: 40px;
+    }
+
+    .pesquisa{
+        width: 55%;
+    }
+
+    .botoes{
+        flex-direction: column;
+    }
+    
 }

@@ -8,14 +8,14 @@
 
 body{
     background-image: linear-gradient(-45deg,
-    #153243,#8EB8E5,#B4B8AB,#D4F2D2, #3F7D20);
+    #0C2D48,#2E8BC0,#e1fcaf,#D2FBA4, #BFD7ED);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
 
 header{
     font-family: 'Roboto', sans-serif;
-    background-color: #1E2D2F;
+    background-color: #0C2D48;
     color: #fff;
     font-weight: bold;
     font-size: 12px;
@@ -138,7 +138,7 @@ header{
 
 .rodape > div{
     
-    background-color: #1E2D2F;
+    background-color: #0C2D48;
     position: fixed;
     left: 0;
     bottom: 0;

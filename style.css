@@ -35,6 +35,7 @@ header{
 .centro{
     text-align: center;
     overflow: hidden;
+    height: 50vh;
 }
 
 .pesquisa{

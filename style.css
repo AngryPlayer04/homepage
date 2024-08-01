@@ -113,52 +113,6 @@ header{
 }
 
 
-.link{
-    position: relative;
-    width: 115px;
-    height: 40px;
-    text-align: center;
-    color: #000000;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 20px;
-    outline: none;
-    margin-top: 15px;
-    text-decoration: none;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(11.1px);
-    border: 1px solid rgba(255, 255, 255, 0.29);
-
-}
-
-
-.aviso{
-    position: absolute;
-    top: 60%;
-    float: left;
-    color: white;
-    overflow: hidden;
-    padding-top: 25px;
-    background-color: red/*#0C2D48*/;
-    border-radius: 25px;
-    height: 25px;
-    line-height: 25px;
-    
-
-    padding: 15px;
-    font-size: 20px;
-    visibility: hidden;
-}
-
-.link:hover + .aviso{
-    visibility: visible;
-    
-}
-
-
 
 .rodape{
     font-family: 'Roboto', sans-serif;

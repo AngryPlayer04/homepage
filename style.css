@@ -28,8 +28,12 @@ header{
     float: left;
 }
 
-.github-logo{
+.linkgit{
     float: right;
+}
+
+
+.github-logo{
     padding-left: 10px;
     width: 25px;
 

@@ -186,6 +186,7 @@ header{
         text-align: center;
         height: 6vh;
         flex-direction: column;
+        height: 3.5vh;
     }
 
     .home{

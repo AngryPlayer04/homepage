@@ -34,12 +34,12 @@ header{
 
 
 .github-logo{
-    padding-left: 10px;
+    padding-right: 10px;
     width: 25px;
 
 }
 
-.githublink {
+.github {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-weight: bold;

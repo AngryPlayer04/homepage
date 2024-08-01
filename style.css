@@ -192,8 +192,12 @@ header{
 
     }
 
-    .githublink{
-        float:none;
+    .linkgit{
+        float: none;
+
+    }
+
+    .github{
         font-size: 20px;
     }
 

@@ -20,6 +20,29 @@ header{
     font-weight: bold;
     font-size: 12px;
     padding: 12px 50px;
+    height:3.3vh;
+
+}
+
+.home {
+    float: left;
+}
+
+.github-logo{
+    float: right;
+    padding-left: 10px;
+    width: 25px;
+
+}
+
+.githublink {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    float: right;
+    text-decoration: none;
+
 
 }
 
@@ -157,6 +180,17 @@ header{
 
     header{
         text-align: center;
+        height: 6vh;
+    }
+
+    .home{
+        float: none;
+
+    }
+
+    .githublink{
+        float:none;
+        font-size: 20px;
     }
 
 

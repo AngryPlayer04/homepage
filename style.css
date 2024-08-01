@@ -193,6 +193,7 @@ header{
     }
 
     .linkgit{
+        padding-top: 5px;
         float: none;
 
     }

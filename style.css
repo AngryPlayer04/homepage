@@ -163,6 +163,10 @@ header{
 
 }
 
+.github:hover{
+    cursor: pointer;
+}
+
 
 
 

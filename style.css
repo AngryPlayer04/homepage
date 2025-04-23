@@ -65,7 +65,7 @@ header{
     height: 50vh;
 }
 
-.pesquisa{
+.pesquisa_google{
     
     margin:auto;
     margin-top: 100px;
@@ -77,6 +77,22 @@ header{
     font-size: 30px;
     line-height: 45px;
 }
+
+
+.pesquisa_bing{
+    
+    visibility: hidden;
+    margin:auto;
+    margin-top: 100px;
+    width: 45%;
+    height: 5%;
+    border-radius: 25px;
+    display: block;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 30px;
+    line-height: 45px;
+}
+
 
 
 
@@ -110,7 +126,7 @@ header{
     font-family: 'Roboto', sans-serif;
     margin-top: 35px;
     
-    display: flex;
+    display: inline;
     align-items: center;
     align-content: space-between;
     justify-content: space-around;
@@ -119,12 +135,14 @@ header{
 }
 
 .botao{
-    width: 115px;
+
+    overflow:auto;
+    width: 25%;
     height: 40px;
     text-align: center;
     color: #000000;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
     outline: none;
     margin-top: 15px;
     background: rgba(255, 255, 255, 0.4);
@@ -135,9 +153,29 @@ header{
     border: 1px solid rgba(255, 255, 255, 0.29);
 }
 
-.botao:hover{
+.botao-bing{
+    overflow:auto;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: -4px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(11.1px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+
+}
+
+.botao-bing,.botao:hover{
     cursor: pointer;
 }
+
 
 
 
@@ -146,7 +184,7 @@ header{
     font-size: large;
     display: flex;
     flex-direction: column;
-    height: 50px;
+    
     
 }
 
@@ -156,7 +194,7 @@ header{
     left: 0;
     bottom: 0;
     width: 100vw;
-    height: 50px;
+    
     line-height: 50px;
     color: white;
     text-align: center;
@@ -188,9 +226,10 @@ header{
 
     header{
         text-align: center;
-        height: 6vh;
+        height: 7vh;
         flex-direction: column;
-        height: 3.5vh;
+        padding-top: 2px;
+        
     }
 
     .home{
@@ -199,12 +238,19 @@ header{
     }
 
     .linkgit{
-        padding-top: 5px;
+        align-items: flex-end;
         float: none;
 
     }
 
+    .github-logo{
+        padding-top: 5px;
+        float: none;
+        width: 20px;
+    }
+
     .github{
+        
         font-size: 20px;
         float: none;
     }
@@ -218,12 +264,27 @@ header{
         margin-top: 40px;
     }
 
-    .pesquisa{
+    .pesquisa_google{
         width: 55%;
+    }
+
+
+    .pesquisa_bing{
+        width: 55%;
+    }
+
+    .caixa{
+       flex-direction: column;
+        float: none;
     }
 
     .botoes{
         flex-direction: column;
+    }
+
+    .botao{
+        width: 70%;
+        font-size: 14px;
     }
     
 }

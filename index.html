@@ -22,24 +22,19 @@
         Bem vindo(a)!
     </main>
     <div class="centro">
-        <form class="pesquisa_google" action="https://www.google.com/search" method="GET" target="_self">
+        <form class="pesquisa_google" action="https://www.google.com/search" method="post" target="_self">
             <input class="caixa" type="text" placeholder="Digite aqui" name="q"> 
             <div class="botoes">
                 <button class="botao" type="submit">
-                    Pesquisar com Google
+                    Google
                 </button>
-                <button class="botao-bing" type="button">
+                <button class="botao-bing" type="submit" formaction="https://www.bing.com/search" name="q">
                     Bing
 
                 </button>
         
         </form>
-        <form class="pesquisa_bing" action="https://www.bing.com/search" method="GET" target="_self">
-            <input class="caixa" type="text" placeholder="Digite aqui" name="q"> 
-            <div class="botoes">
-                <button class="botao" type="button">
-                    Pesquisar com Bing
-                </button>
+        
         </form>
             </div>
             

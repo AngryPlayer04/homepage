@@ -37,7 +37,7 @@ header{
     font-size: 12px;
     padding: 12px 50px;
     height:3.3vh;
-
+    box-shadow: 5px rgba(0, 0, 0, 0.1);
 }
 
 .home {
@@ -205,15 +205,16 @@ header{
 
     header{
         text-align: center;
-        height: 7vh;
+        height: 8vh;
         flex-direction: column;
         padding-top: 2px;
-        line-height: 35px;
+        line-height: 30px;
         
     }
 
     .home{
         float: none;
+        
     }
 
     .linkgit{
@@ -227,6 +228,7 @@ header{
         padding-top: 5px;
         float: none;
         width: 20px;
+        
     }
 
     .github{
@@ -238,12 +240,12 @@ header{
 
     .saudacao{
         font-size: 60px;
-        padding-top: 30px;
+        padding-top: 0px;
     }
 
     .centro{
-        
-        margin-top: 40px;
+        padding-top: 0px;
+        margin-top: 10px;
     }
 
     .pesquisa{

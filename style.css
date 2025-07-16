@@ -51,7 +51,6 @@ header{
     
 }
 
-
 .github-logo{
     padding-right: 10px;
     
@@ -105,11 +104,6 @@ header{
     line-height: 45px;
 }
 
-
-
-
-
-
 .caixa{
     display: flex;
     background: rgba(255, 255, 255, 0.4);
@@ -149,7 +143,6 @@ header{
 }
 
 
-
 .botao{
     overflow:auto;
     width: 12%;
@@ -173,9 +166,6 @@ header{
     cursor: pointer;
 }
 
-
-
-
 .rodape{
     font-family: 'Roboto', sans-serif;
     font-size: medium;
@@ -197,12 +187,6 @@ header{
     text-align: center;
 
 }
-
-
-
-
-
-
 
 @keyframes gradient {
     0% {
@@ -230,8 +214,6 @@ header{
 
     .home{
         float: none;
-
-
     }
 
     .linkgit{
@@ -254,7 +236,6 @@ header{
         
     }
 
-
     .saudacao{
         font-size: 60px;
         padding-top: 30px;
@@ -269,9 +250,6 @@ header{
         font-size: large;
         width: 80vw;
     }
-
-
-
 
     .caixa{
         flex-direction: column;
